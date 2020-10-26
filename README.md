@@ -1,5 +1,6 @@
-# opendata
-Licenca:  Creative Commons Attribution-ShareAlike License
-Autor: Tomislav Prhat
-Verzija: 1.0
-Jezik: Hrvatski/Engleski
+# Klubovi Premijer Lige
+<p>Licenca:  Creative Commons Attribution-ShareAlike License <br>
+Autor: Tomislav Prhat <br>
+Verzija: 1.0 <br>
+Jezik: Hrvatski/Engleski <br>
+</p>
