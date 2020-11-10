@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Klubovi Premijer Lige</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Podaci o klubovima u Premijer Ligi u sezoni 2020./2021">
+    <meta name="author" content="Tomislav Prhat">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/main.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/dt-1.10.22/sp-1.2.1/datatables.min.css"/>
+    <script type="text/javascript" src="https://cdn.datatables.net/v/dt/dt-1.10.22/sp-1.2.1/datatables.min.js"></script>
+        
+    <script src="https://cdn.jsdelivr.net/npm/table-to-json@1.0.0/lib/jquery.tabletojson.min.js"
+        integrity="sha256-H8xrCe0tZFi/C2CgxkmiGksqVaxhW0PFcUKZJZo1yNU=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <h2>Klubovi Premijer Lige</h2>
+    <table id="myTable">
+        <thead>
+            <tr style="font-weight: bold">
+                <td>Ime kluba</td>
+                <td>Godina osnivanja</td>
+                <td>Mjesto kluba</td>
+                <td>Kapacitet stadiona</td>
+                <td>Prva sezona u EPL</td>
+                <td>Broj titula</td>
+                <td>Nadimak</td>
+                <td>Naziv stadiona</td>
+                <td>Ime trenera</td>
+                <td>Wikipedija stranica</td>
+                <td>Ime igrača</td>
+                <td>Prezime igrača</td>
+                <td>Datum rođenja</td>
+
+            </tr>
+        </thead>
+        <tbody>
+            <% for (item of rows) { %>
+            <tr>
+                <td><%=item.imekluba %></td>
+                <td><%=item.godinaosnivanja %></td>
+                <td><%=item.mjestokluba %></td>
+                <td><%=item.kapacitet %></td>
+                <td><%=item.prvasezonaepl %></td>
+                <td><%=item.brojtitula %></td>
+                <td><%=item.nadimak %></td>
+                <td><%=item.nazivstadiona %></td>
+                <td><%=item.imetrenera %></td>
+                <td><%=item.wikipedijaurl %></td>
+                <td><%=item.ime %></td>
+                <td><%=item.prezime %></td>
+                <td><%=item.datumrodenja %></td>
+            </tr>
+            <% } %>
+        </tbody>
+    </table>
+    <button id="button1">Export to CSV</button>
+    <button id="button2">Export to JSON</button>
+</body>
+<script>
+    $(document).ready(function () {
+        $('#myTable').DataTable({
+            paging: false
+    });
+});
+</script>
+<script type="text/javascript">
+    // Basic Usage
+    document.querySelector("#button2").addEventListener("click", function () {
+        var table = $('#myTable').tableToJSON();
+        JSONfile = new Blob([JSON.stringify(table)], {
+        type: "application/json"
+    });
+    // Download link
+    downloadLink = document.createElement("a");
+
+    // File name
+    downloadLink.download = "table.json";
+
+    // We have to create a link to the file
+    downloadLink.href = window.URL.createObjectURL(JSONfile);
+
+    // Make sure that the link is not displayed
+    downloadLink.style.display = "none";
+
+    // Add the link to your DOM
+    document.body.appendChild(downloadLink);
+
+    // Lanzamos
+    downloadLink.click();
+
+});
+</script>
+<script src="./scripts/downloadCSV.js"></script>
+
+</html>

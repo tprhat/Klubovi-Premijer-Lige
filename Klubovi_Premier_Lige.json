@@ -1,407 +1,407 @@
 [
-  {
-    "imekluba": "Manchester United F.C.",
-    "godinaosnivanja": 1878,
-    "mjestokluba": "Manchester",
-    "kapacitet": 74140,
-    "prvasezonaepl": 1992,
-    "brojtitula": 20,
-    "nadimak": "The Red Devils",
-    "nazivstadiona": "Old Trafford",
-    "imetrenera": "Ole Gunnar Solskjær",
-    "wikipedijaurl": "https://en.wikipedia.org/wiki/Manchester_United_F.C.",
-    "igraci": [
-      {
-        "ime": "Paul",
-        "prezime": "Pogba",
-        "datumrodenja": "15.3.93"
-      },
-      {
-        "ime": "David",
-        "prezime": "de Gea",
-        "datumrodenja": "7.11.90"
-      }
-    ]
-  },
-  {
-    "imekluba": "Arsenal F.C.",
-    "godinaosnivanja": 1886,
-    "mjestokluba": "London",
-    "kapacitet": 60704,
-    "prvasezonaepl": 1992,
-    "brojtitula": 13,
-    "nadimak": "The Gunners",
-    "nazivstadiona": "Emirates Stadium",
-    "imetrenera": "Mikel Arteta",
-    "wikipedijaurl": "https://en.wikipedia.org/wiki/Arsenal_F.C.",
-    "igraci": [
-      {
-        "ime": "Pierre-Emerick",
-        "prezime": "Aubameyang",
-        "datumrodenja": "18.6.89"
-      },
-      {
-        "ime": "Mesut",
-        "prezime": "Özil",
-        "datumrodenja": "15.10.88"
-      }
-    ]
-  },
-  {
-    "imekluba": "Aston Villa F.C.",
-    "godinaosnivanja": 1874,
-    "mjestokluba": "Birmingham",
-    "kapacitet": 42749,
-    "prvasezonaepl": 1992,
-    "brojtitula": 7,
-    "nadimak": "The Villa",
-    "nazivstadiona": "Villa Park",
-    "imetrenera": "Dean Smith",
-    "wikipedijaurl": "https://en.wikipedia.org/wiki/Aston_Villa_F.C.",
-    "igraci": [
-      {
-        "ime": "Jack",
-        "prezime": "Grealish",
-        "datumrodenja": "10.9.95"
-      },
-      {
-        "ime": "Lovre",
-        "prezime": "Kalinić",
-        "datumrodenja": "3.4.90"
-      }
-    ]
-  },
-  {
-    "imekluba": "Brighton & Hove Albion F.C.",
-    "godinaosnivanja": 1910,
-    "mjestokluba": "Brighton and Hove",
-    "kapacitet": 30750,
-    "prvasezonaepl": 2017,
-    "brojtitula": 0,
-    "nadimak": "The Seagulls",
-    "nazivstadiona": "Falmer Stadium",
-    "imetrenera": "Graham Potter",
-    "wikipedijaurl": "https://en.wikipedia.org/wiki/Brighton_%26_Hove_Albion_F.C.",
-    "igraci": [
-      {
-        "ime": "Lewis",
-        "prezime": "Dunk",
-        "datumrodenja": "21.11.91"
-      }
-    ]
-  },
-  {
-    "imekluba": "Burnley F.C.",
-    "godinaosnivanja": 1882,
-    "mjestokluba": "Burnley",
-    "kapacitet": 21944,
-    "prvasezonaepl": 2009,
-    "brojtitula": 2,
-    "nadimak": "The Clarets",
-    "nazivstadiona": "Turf Moor",
-    "imetrenera": "Sean Dyche",
-    "wikipedijaurl": "https://en.wikipedia.org/wiki/Burnley_F.C.",
-    "igraci": [
-      {
-        "ime": "Ben",
-        "prezime": "Mee",
-        "datumrodenja": "21.9.89"
-      }
-    ]
-  },
-  {
-    "imekluba": "Chelsea F.C.",
-    "godinaosnivanja": 1905,
-    "mjestokluba": "London",
-    "kapacitet": 40834,
-    "prvasezonaepl": 1992,
-    "brojtitula": 6,
-    "nadimak": "The Blues",
-    "nazivstadiona": "Stamford Bridge",
-    "imetrenera": "Frank Lampard",
-    "wikipedijaurl": "https://en.wikipedia.org/wiki/Chelsea_F.C.",
-    "igraci": [
-      {
-        "ime": "Mateo",
-        "prezime": "Kovačić",
-        "datumrodenja": "4.5.94"
-      },
-      {
-        "ime": "Timo",
-        "prezime": "Werner",
-        "datumrodenja": "6.3.96"
-      }
-    ]
-  },
-  {
-    "imekluba": "Crystal Palace F.C.",
-    "godinaosnivanja": 1905,
-    "mjestokluba": "Selhurst",
-    "kapacitet": 25486,
-    "prvasezonaepl": 1992,
-    "brojtitula": 0,
-    "nadimak": "The Eagles",
-    "nazivstadiona": "Selhurst Park",
-    "imetrenera": "Roy Hodgson",
-    "wikipedijaurl": "https://en.wikipedia.org/wiki/Crystal_Palace_F.C.",
-    "igraci": [
-      {
-        "ime": "Luka",
-        "prezime": "Milivojević",
-        "datumrodenja": "7.4.91"
-      }
-    ]
-  },
-  {
-    "imekluba": "Everton F.C.",
-    "godinaosnivanja": 1878,
-    "mjestokluba": "Liverpool",
-    "kapacitet": 39414,
-    "prvasezonaepl": 1992,
-    "brojtitula": 9,
-    "nadimak": "The Toffees",
-    "nazivstadiona": "Goodson Park",
-    "imetrenera": "Carlo Ancelotti",
-    "wikipedijaurl": "https://en.wikipedia.org/wiki/Everton_F.C.",
-    "igraci": [
-      {
-        "ime": "James",
-        "prezime": "Rodríguez",
-        "datumrodenja": "12.7.91"
-      },
-      {
-        "ime": "Séamus",
-        "prezime": "Coleman",
-        "datumrodenja": "11.10.88"
-      }
-    ]
-  },
-  {
-    "imekluba": "Fulham F.C.",
-    "godinaosnivanja": 1879,
-    "mjestokluba": "London",
-    "kapacitet": 19359,
-    "prvasezonaepl": 2001,
-    "brojtitula": 0,
-    "nadimak": "The Cottagers",
-    "nazivstadiona": "Craven Cottage",
-    "imetrenera": "Scott Parker",
-    "wikipedijaurl": "https://en.wikipedia.org/wiki/Fulham_F.C.",
-    "igraci": [
-      {
-        "ime": "Tom",
-        "prezime": "Cairney",
-        "datumrodenja": "20.1.91"
-      }
-    ]
-  },
-  {
-    "imekluba": "Leeds United F.C.",
-    "godinaosnivanja": 1919,
-    "mjestokluba": "Leeds",
-    "kapacitet": 37792,
-    "prvasezonaepl": 1992,
-    "brojtitula": 3,
-    "nadimak": "The Peacocks",
-    "nazivstadiona": "Elland Road",
-    "imetrenera": "Marcelo Bielsa",
-    "wikipedijaurl": "https://en.wikipedia.org/wiki/Leeds_United_F.C.",
-    "igraci": [
-      {
-        "ime": "Liam",
-        "prezime": "Cooper",
-        "datumrodenja": "30.8.91"
-      }
-    ]
-  },
-  {
-    "imekluba": "Leicester City F.C.",
-    "godinaosnivanja": 1884,
-    "mjestokluba": "Leicester",
-    "kapacitet": 32261,
-    "prvasezonaepl": 1994,
-    "brojtitula": 1,
-    "nadimak": "The Foxes",
-    "nazivstadiona": "King Power Stadium",
-    "imetrenera": "Brendan Rodgers",
-    "wikipedijaurl": "https://en.wikipedia.org/wiki/Leicester_City_F.C.",
-    "igraci": [
-      {
-        "ime": "Wes",
-        "prezime": "Morgan",
-        "datumrodenja": "20.1.84"
-      }
-    ]
-  },
-  {
-    "imekluba": "Liverpool F.C.",
-    "godinaosnivanja": 1892,
-    "mjestokluba": "Liverpool",
-    "kapacitet": 53394,
-    "prvasezonaepl": 1992,
-    "brojtitula": 19,
-    "nadimak": "The Reds",
-    "nazivstadiona": "Anfield",
-    "imetrenera": "Jürgen Klopp",
-    "wikipedijaurl": "https://en.wikipedia.org/wiki/Liverpool_F.C.",
-    "igraci": [
-      {
-        "ime": "Jordan",
-        "prezime": "Henderson",
-        "datumrodenja": "17.6.90"
-      }
-    ]
-  },
-  {
-    "imekluba": "Manchester City F.C.",
-    "godinaosnivanja": 1880,
-    "mjestokluba": "Manchester",
-    "kapacitet": 55017,
-    "prvasezonaepl": 1992,
-    "brojtitula": 6,
-    "nadimak": "The Citizens",
-    "nazivstadiona": "Etihad Stadium",
-    "imetrenera": "Pep Guardiola",
-    "wikipedijaurl": "https://en.wikipedia.org/wiki/Manchester_City_F.C.",
-    "igraci": [
-      {
-        "ime": "Kevin",
-        "prezime": "De Bruyne",
-        "datumrodenja": "28.6.91"
-      }
-    ]
-  },
-  {
-    "imekluba": "Newcastle United F.C.",
-    "godinaosnivanja": 1892,
-    "mjestokluba": "Newcastle",
-    "kapacitet": 52305,
-    "prvasezonaepl": 1993,
-    "brojtitula": 4,
-    "nadimak": "The Magpies",
-    "nazivstadiona": "St James' Park",
-    "imetrenera": "Steve Bruce",
-    "wikipedijaurl": "https://en.wikipedia.org/wiki/Newcastle_United_F.C.",
-    "igraci": [
-      {
-        "ime": "Jamaal",
-        "prezime": "Lascelles",
-        "datumrodenja": "11.11.93"
-      }
-    ]
-  },
-  {
-    "imekluba": "Sheffield United F.C.",
-    "godinaosnivanja": 1889,
-    "mjestokluba": "Sheffield",
-    "kapacitet": 32050,
-    "prvasezonaepl": 1992,
-    "brojtitula": 1,
-    "nadimak": "The Blades",
-    "nazivstadiona": "Bramall Lane",
-    "imetrenera": "Chris Wilder",
-    "wikipedijaurl": "https://en.wikipedia.org/wiki/Sheffield_United_F.C.",
-    "igraci": [
-      {
-        "ime": "Billy",
-        "prezime": "Sharp",
-        "datumrodenja": "5.2.86"
-      }
-    ]
-  },
-  {
-    "imekluba": "Southampton F.C.",
-    "godinaosnivanja": 1885,
-    "mjestokluba": "Southhampton",
-    "kapacitet": 32384,
-    "prvasezonaepl": 1992,
-    "brojtitula": 0,
-    "nadimak": "The Saints",
-    "nazivstadiona": "St Mary's Stadium",
-    "imetrenera": "Ralph Hasenhüttl",
-    "wikipedijaurl": "https://en.wikipedia.org/wiki/Southampton_F.C.",
-    "igraci": [
-      {
-        "ime": "James",
-        "prezime": "Ward-Prowse",
-        "datumrodenja": "1.11.94"
-      }
-    ]
-  },
-  {
-    "imekluba": "Tottenham Hotspur F.C.",
-    "godinaosnivanja": 1882,
-    "mjestokluba": "London",
-    "kapacitet": 62303,
-    "prvasezonaepl": 1992,
-    "brojtitula": 2,
-    "nadimak": "The Lilywhites",
-    "nazivstadiona": "Tottenham Hotspur Stadium",
-    "imetrenera": "José Mourinho",
-    "wikipedijaurl": "https://en.wikipedia.org/wiki/Tottenham_Hotspur_F.C.",
-    "igraci": [
-      {
-        "ime": "Hugo",
-        "prezime": "Lloris",
-        "datumrodenja": "26.12.86"
-      }
-    ]
-  },
-  {
-    "imekluba": "West Bromwich Albion F.C.",
-    "godinaosnivanja": 1878,
-    "mjestokluba": "West Bromwich",
-    "kapacitet": 26688,
-    "prvasezonaepl": 2002,
-    "brojtitula": 1,
-    "nadimak": "The Baggies",
-    "nazivstadiona": "The Hawthorns",
-    "imetrenera": "Slaven Bilić",
-    "wikipedijaurl": "https://en.wikipedia.org/wiki/West_Bromwich_Albion_F.C.",
-    "igraci": [
-      {
-        "ime": "Jake",
-        "prezime": "Livermore",
-        "datumrodenja": "14.11.89"
-      }
-    ]
-  },
-  {
-    "imekluba": "West Ham United F.C.",
-    "godinaosnivanja": 1895,
-    "mjestokluba": "London",
-    "kapacitet": 60000,
-    "prvasezonaepl": 1993,
-    "brojtitula": 0,
-    "nadimak": "The Hammers",
-    "nazivstadiona": "London Stadium",
-    "imetrenera": "David Moyes",
-    "wikipedijaurl": "https://en.wikipedia.org/wiki/West_Ham_United_F.C.",
-    "igraci": [
-      {
-        "ime": "Mark",
-        "prezime": "Noble",
-        "datumrodenja": "8.5.87"
-      }
-    ]
-  },
-  {
-    "imekluba": "Wolverhampton Wanderers F.C.",
-    "godinaosnivanja": 1877,
-    "mjestokluba": "Wolverhampton",
-    "kapacitet": 32050,
-    "prvasezonaepl": 2003,
-    "brojtitula": 3,
-    "nadimak": "Wolves",
-    "nazivstadiona": "Molineux Stadium",
-    "imetrenera": "Nuno Espírito Santo",
-    "wikipedijaurl": "https://en.wikipedia.org/wiki/Wolverhampton_Wanderers_F.C.",
-    "igraci": [
-      {
-        "ime": "Conor",
-        "prezime": "Coady",
-        "datumrodenja": "25.2.93"
-      }
-    ]
-  }
+    {
+        "imekluba": "Manchester United F.C.",
+        "godinaosnivanja": 1878,
+        "mjestokluba": "Manchester",
+        "kapacitet": 74140,
+        "prvasezonaepl": 1992,
+        "brojtitula": 20,
+        "nadimak": "The Red Devils",
+        "nazivstadiona": "Old Trafford",
+        "imetrenera": "Ole Gunnar Solskjær",
+        "wikipedijaurl": "Manchester_United_F.C.",
+        "igraci": [
+            {
+              "ime": "Paul",
+              "prezime": "Pogba",
+              "datumrodenja": "15.3.93"
+            },
+            {
+              "ime": "David",
+              "prezime": "de Gea",
+              "datumrodenja": "7.11.90"
+            }
+          ]    
+    },
+    {
+        "imekluba": "Arsenal F.C.",
+        "godinaosnivanja": 1886,
+        "mjestokluba": "London",
+        "kapacitet": 60704,
+        "prvasezonaepl": 1992,
+        "brojtitula": 13,
+        "nadimak": "The Gunners",
+        "nazivstadiona": "Emirates Stadium",
+        "imetrenera": "Mikel Arteta",
+        "wikipedijaurl": "Arsenal_F.C.",
+        "igraci": [
+            {
+              "ime": "Pierre-Emerick",
+              "prezime": "Aubameyang",
+              "datumrodenja": "18.6.89"
+            },
+            {
+              "ime": "Mesut",
+              "prezime": "Özil",
+              "datumrodenja": "15.10.88"
+            }
+          ]
+    },
+    {
+        "imekluba": "Aston Villa F.C.",
+        "godinaosnivanja": 1874,
+        "mjestokluba": "Birmingham",
+        "kapacitet": 42749,
+        "prvasezonaepl": 1992,
+        "brojtitula": 7,
+        "nadimak": "The Villa",
+        "nazivstadiona": "Villa Park",
+        "imetrenera": "Dean Smith",
+        "wikipedijaurl": "Aston_Villa_F.C.",
+        "igraci": [
+            {
+              "ime": "Jack",
+              "prezime": "Grealish",
+              "datumrodenja": "10.9.95"
+            },
+            {
+              "ime": "Lovre",
+              "prezime": "Kalinić",
+              "datumrodenja": "3.4.90"
+            }
+          ]
+    },
+    {
+        "imekluba": "Brighton & Hove Albion F.C.",
+        "godinaosnivanja": 1910,
+        "mjestokluba": "Brighton and Hove",
+        "kapacitet": 30750,
+        "prvasezonaepl": 2017,
+        "brojtitula": 0,
+        "nadimak": "The Seagulls",
+        "nazivstadiona": "Falmer Stadium",
+        "imetrenera": "Graham Potter",
+        "wikipedijaurl": "Brighton_%26_Hove_Albion_F.C.",
+        "igraci": [
+            {
+              "ime": "Lewis",
+              "prezime": "Dunk",
+              "datumrodenja": "21.11.91"
+            }
+          ]
+    },
+    {
+        "imekluba": "Burnley F.C.",
+        "godinaosnivanja": 1882,
+        "mjestokluba": "Burnley",
+        "kapacitet": 21944,
+        "prvasezonaepl": 2009,
+        "brojtitula": 2,
+        "nadimak": "The Clarets",
+        "nazivstadiona": "Turf Moor",
+        "imetrenera": "Sean Dyche",
+        "wikipedijaurl": "Burnley_F.C.",
+        "igraci": [
+            {
+              "ime": "Ben",
+              "prezime": "Mee",
+              "datumrodenja": "21.9.89"
+            }
+          ]
+    },
+    {
+        "imekluba": "Chelsea F.C.",
+        "godinaosnivanja": 1905,
+        "mjestokluba": "London",
+        "kapacitet": 40834,
+        "prvasezonaepl": 1992,
+        "brojtitula": 6,
+        "nadimak": "The Blues",
+        "nazivstadiona": "Stamford Bridge",
+        "imetrenera": "Frank Lampard",
+        "wikipedijaurl": "Chelsea_F.C.",
+        "igraci": [
+            {
+              "ime": "Mateo",
+              "prezime": "Kovačić",
+              "datumrodenja": "4.5.94"
+            },
+            {
+              "ime": "Timo",
+              "prezime": "Werner",
+              "datumrodenja": "6.3.96"
+            }
+          ]
+    },
+    {
+        "imekluba": "Crystal Palace F.C.",
+        "godinaosnivanja": 1905,
+        "mjestokluba": "Selhurst",
+        "kapacitet": 25486,
+        "prvasezonaepl": 1992,
+        "brojtitula": 0,
+        "nadimak": "The Eagles",
+        "nazivstadiona": "Selhurst Park",
+        "imetrenera": "Roy Hodgson",
+        "wikipedijaurl": "Crystal_Palace_F.C.",
+        "igraci": [
+            {
+              "ime": "Luka",
+              "prezime": "Milivojević",
+              "datumrodenja": "7.4.91"
+            }
+          ]
+    },
+    {
+        "imekluba": "Everton F.C.",
+        "godinaosnivanja": 1878,
+        "mjestokluba": "Liverpool",
+        "kapacitet": 39414,
+        "prvasezonaepl": 1992,
+        "brojtitula": 9,
+        "nadimak": "The Toffees",
+        "nazivstadiona": "Goodson Park",
+        "imetrenera": "Carlo Ancelotti",
+        "wikipedijaurl": "Everton_F.C.",
+        "igraci": [
+            {
+              "ime": "James",
+              "prezime": "Rodríguez",
+              "datumrodenja": "12.7.91"
+            },
+            {
+              "ime": "Séamus",
+              "prezime": "Coleman",
+              "datumrodenja": "11.10.88"
+            }
+          ]
+    },
+    {
+        "imekluba": "Fulham F.C.",
+        "godinaosnivanja": 1879,
+        "mjestokluba": "London",
+        "kapacitet": 19359,
+        "prvasezonaepl": 2001,
+        "brojtitula": 0,
+        "nadimak": "The Cottagers",
+        "nazivstadiona": "Craven Cottage",
+        "imetrenera": "Scott Parker",
+        "wikipedijaurl": "Fulham_F.C.",
+        "igraci": [
+            {
+              "ime": "Tom",
+              "prezime": "Cairney",
+              "datumrodenja": "20.1.91"
+            }
+          ]
+    },
+    {
+        "imekluba": "Leeds United F.C.",
+        "godinaosnivanja": 1919,
+        "mjestokluba": "Leeds",
+        "kapacitet": 37792,
+        "prvasezonaepl": 1992,
+        "brojtitula": 3,
+        "nadimak": "The Peacocks",
+        "nazivstadiona": "Elland Road",
+        "imetrenera": "Marcelo Bielsa",
+        "wikipedijaurl": "Leeds_United_F.C.",
+        "igraci": [
+            {
+              "ime": "Liam",
+              "prezime": "Cooper",
+              "datumrodenja": "30.8.91"
+            }
+          ]
+    },
+    {
+        "imekluba": "Leicester City F.C.",
+        "godinaosnivanja": 1884,
+        "mjestokluba": "Leicester",
+        "kapacitet": 32261,
+        "prvasezonaepl": 1994,
+        "brojtitula": 1,
+        "nadimak": "The Foxes",
+        "nazivstadiona": "King Power Stadium",
+        "imetrenera": "\tBrendan Rodgers",
+        "wikipedijaurl": "Leicester_City_F.C.",
+        "igraci": [
+            {
+              "ime": "Wes",
+              "prezime": "Morgan",
+              "datumrodenja": "20.1.84"
+            }
+          ]
+    },
+    {
+        "imekluba": "Liverpool F.C.",
+        "godinaosnivanja": 1892,
+        "mjestokluba": "Liverpool",
+        "kapacitet": 53394,
+        "prvasezonaepl": 1992,
+        "brojtitula": 19,
+        "nadimak": "The Reds",
+        "nazivstadiona": "Anfield",
+        "imetrenera": "Jürgen Klopp",
+        "wikipedijaurl": "Liverpool_F.C.",
+        "igraci": [
+            {
+              "ime": "Jordan",
+              "prezime": "Henderson",
+              "datumrodenja": "17.6.90"
+            }
+          ]
+    },
+    {
+        "imekluba": "Manchester City F.C.",
+        "godinaosnivanja": 1880,
+        "mjestokluba": "Manchester",
+        "kapacitet": 55017,
+        "prvasezonaepl": 1992,
+        "brojtitula": 6,
+        "nadimak": "The Citizens",
+        "nazivstadiona": "Etihad Stadium",
+        "imetrenera": "Pep Guardiola",
+        "wikipedijaurl": "Manchester_City_F.C.",
+        "igraci": [
+            {
+              "ime": "Kevin",
+              "prezime": "De Bruyne",
+              "datumrodenja": "28.6.91"
+            }
+          ]
+    },
+    {
+        "imekluba": "Newcastle United F.C.",
+        "godinaosnivanja": 1892,
+        "mjestokluba": "Newcastle",
+        "kapacitet": 52305,
+        "prvasezonaepl": 1993,
+        "brojtitula": 4,
+        "nadimak": "The Magpies",
+        "nazivstadiona": "St James' Park",
+        "imetrenera": "Steve Bruce",
+        "wikipedijaurl": "Newcastle_United_F.C.",
+        "igraci": [
+            {
+              "ime": "Jamaal",
+              "prezime": "Lascelles",
+              "datumrodenja": "11.11.93"
+            }
+          ]
+    },
+    {
+        "imekluba": "Sheffield United F.C.",
+        "godinaosnivanja": 1889,
+        "mjestokluba": "Sheffield",
+        "kapacitet": 32050,
+        "prvasezonaepl": 1992,
+        "brojtitula": 1,
+        "nadimak": "The Blades",
+        "nazivstadiona": "Bramall Lane",
+        "imetrenera": "Chris Wilder",
+        "wikipedijaurl": "Sheffield_United_F.C.",
+        "igraci": [
+            {
+              "ime": "Billy",
+              "prezime": "Sharp",
+              "datumrodenja": "5.2.86"
+            }
+          ]
+    },
+    {
+        "imekluba": "Southampton F.C.",
+        "godinaosnivanja": 1885,
+        "mjestokluba": "Southhampton",
+        "kapacitet": 32384,
+        "prvasezonaepl": 1992,
+        "brojtitula": 0,
+        "nadimak": "The Saints",
+        "nazivstadiona": "St Mary's Stadium",
+        "imetrenera": "Ralph Hasenhüttl",
+        "wikipedijaurl": "Southampton_F.C.",
+        "igraci": [
+            {
+              "ime": "James",
+              "prezime": "Ward-Prowse",
+              "datumrodenja": "1.11.94"
+            }
+          ]
+    },
+    {
+        "imekluba": "Tottenham Hotspur F.C.",
+        "godinaosnivanja": 1882,
+        "mjestokluba": "London",
+        "kapacitet": 62303,
+        "prvasezonaepl": 1992,
+        "brojtitula": 2,
+        "nadimak": "The Lilywhites",
+        "nazivstadiona": "Tottenham Hotspur Stadium",
+        "imetrenera": "José Mourinho",
+        "wikipedijaurl": "Tottenham_Hotspur_F.C.",
+        "igraci": [
+            {
+              "ime": "Hugo",
+              "prezime": "Lloris",
+              "datumrodenja": "26.12.86"
+            }
+          ]
+    },
+    {
+        "imekluba": "West Bromwich Albion F.C.",
+        "godinaosnivanja": 1878,
+        "mjestokluba": "West Bromwich",
+        "kapacitet": 26688,
+        "prvasezonaepl": 2002,
+        "brojtitula": 1,
+        "nadimak": "The Baggies",
+        "nazivstadiona": "The Hawthorns",
+        "imetrenera": "Slaven Bilić",
+        "wikipedijaurl": "West_Bromwich_Albion_F.C.",
+        "igraci": [
+            {
+              "ime": "Jake",
+              "prezime": "Livermore",
+              "datumrodenja": "14.11.89"
+            }
+          ]
+    },
+    {
+        "imekluba": "West Ham United F.C.",
+        "godinaosnivanja": 1895,
+        "mjestokluba": "London",
+        "kapacitet": 60000,
+        "prvasezonaepl": 1993,
+        "brojtitula": 0,
+        "nadimak": "The Hammers",
+        "nazivstadiona": "London Stadium",
+        "imetrenera": "David Moyes",
+        "wikipedijaurl": "West_Ham_United_F.C.",
+        "igraci": [
+            {
+              "ime": "Mark",
+              "prezime": "Noble",
+              "datumrodenja": "8.5.87"
+            }
+          ]
+    },
+    {
+        "imekluba": "Wolverhampton Wanderers F.C.",
+        "godinaosnivanja": 1877,
+        "mjestokluba": "Wolverhampton",
+        "kapacitet": 32050,
+        "prvasezonaepl": 2003,
+        "brojtitula": 3,
+        "nadimak": "Wolves",
+        "nazivstadiona": "Molineux Stadium",
+        "imetrenera": "Nuno Espírito Santo",
+        "wikipedijaurl": "Wolverhampton_Wanderers_F.C.",
+        "igraci": [
+            {
+              "ime": "Conor",
+              "prezime": "Coady",
+              "datumrodenja": "25.2.93"
+            }
+          ]
+    }
 ]

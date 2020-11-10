@@ -1,0 +1,29 @@
+{
+  "name": "oropendata",
+  "version": "1.0.0",
+  "description": "Klubovi Premier Lige",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tprhat/opendata.git"
+  },
+  "keywords": [
+    "data"
+  ],
+  "author": "Tomislav Prhat",
+  "license": "Creative Commons Attribution-ShareAlike",
+  "bugs": {
+    "url": "https://github.com/tprhat/opendata/issues"
+  },
+  "homepage": "https://github.com/tprhat/opendata#readme",
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "path": "^0.12.7",
+    "pg": "^8.4.2"
+  }
+}

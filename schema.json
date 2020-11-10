@@ -1,0 +1,219 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "$id": "http://example.com/example.json",
+    "type": "object",
+    "title": "Klubovi Premijer Lige",
+    "description": "Podaci o klubovima Premijer Lige u sezoni 2020./2021.",
+    "default": {},
+    "examples": [
+        {
+            "imekluba": "Manchester United F.C.",
+            "godinaosnivanja": 1878,
+            "mjestokluba": "Manchester",
+            "kapacitet": 74140,
+            "prvasezonaepl": 1992,
+            "brojtitula": 20,
+            "nadimak": "The Red Devils",
+            "nazivstadiona": "Old Trafford",
+            "imetrenera": "Ole Gunnar Solskjær",
+            "wikipedijaurl": "Manchester_United_F.C.",
+            "igraci": [
+                {
+                    "ime": "Paul",
+                    "prezime": "Pogba",
+                    "datumrodenja": "15.3.93"
+                }
+            ]
+        }
+    ],
+    "required": [
+        "imekluba",
+        "godinaosnivanja",
+        "mjestokluba",
+        "kapacitet",
+        "prvasezonaepl",
+        "brojtitula",
+        "nadimak",
+        "nazivstadiona",
+        "imetrenera",
+        "wikipedijaurl",
+        "igraci"
+    ],
+    "properties": {
+        "imekluba": {
+            "$id": "#/properties/imekluba",
+            "type": "string",
+            "title": "The imekluba schema",
+            "description": "Ime kluba",
+            "default": "",
+            "examples": [
+                "Manchester United F.C."
+            ]
+        },
+        "godinaosnivanja": {
+            "$id": "#/properties/godinaosnivanja",
+            "type": "integer",
+            "title": "The godinaosnivanja schema",
+            "description": "Godina osnivanja",
+            "default": 0,
+            "examples": [
+                1878
+            ]
+        },
+        "mjestokluba": {
+            "$id": "#/properties/mjestokluba",
+            "type": "string",
+            "title": "The mjestokluba schema",
+            "description": "Mjesto/grad u kojem se klub nalazi",
+            "default": "",
+            "examples": [
+                "Manchester"
+            ]
+        },
+        "kapacitet": {
+            "$id": "#/properties/kapacitet",
+            "type": "integer",
+            "title": "The kapacitet schema",
+            "description": "Kapacitet stadiona",
+            "default": 0,
+            "examples": [
+                74140
+            ]
+        },
+        "prvasezonaepl": {
+            "$id": "#/properties/prvasezonaepl",
+            "type": "integer",
+            "title": "The prvasezonaepl schema",
+            "description": "Prva sezona u EPL",
+            "default": 0,
+            "examples": [
+                1992
+            ]
+        },
+        "brojtitula": {
+            "$id": "#/properties/brojtitula",
+            "type": "integer",
+            "title": "The brojtitula schema",
+            "description": "Broj osvojenih titula",
+            "default": 0,
+            "examples": [
+                20
+            ]
+        },
+        "nadimak": {
+            "$id": "#/properties/nadimak",
+            "type": "string",
+            "title": "The nadimak schema",
+            "description": "Nadimak tima",
+            "default": "",
+            "examples": [
+                "The Red Devils"
+            ]
+        },
+        "nazivstadiona": {
+            "$id": "#/properties/nazivstadiona",
+            "type": "string",
+            "title": "The nazivstadiona schema",
+            "description": "Naziv stadiona",
+            "default": "",
+            "examples": [
+                "Old Trafford"
+            ]
+        },
+        "imetrenera": {
+            "$id": "#/properties/imetrenera",
+            "type": "string",
+            "title": "The imetrenera schema",
+            "description": "Ime trenera",
+            "default": "",
+            "examples": [
+                "Ole Gunnar Solskjær"
+            ]
+        },
+        "wikipedijaurl": {
+            "$id": "#/properties/wikipedijaurl",
+            "type": "string",
+            "title": "The wikipedijaurl schema",
+            "description": "Wikipedija handle",
+            "default": "",
+            "examples": [
+                "Manchester_United_F.C."
+            ]
+        },
+        "igraci": {
+            "$id": "#/properties/igraci",
+            "type": "array",
+            "title": "The igraci schema",
+            "description": "Igrači tima",
+            "default": [],
+            "examples": [
+                [
+                    {
+                        "ime": "Paul",
+                        "prezime": "Pogba",
+                        "datumrodenja": "15.3.93"
+                    }
+                ]
+            ],
+            "additionalItems": true,
+            "items": {
+                "$id": "#/properties/igraci/items",
+                "anyOf": [
+                    {
+                        "$id": "#/properties/igraci/items/anyOf/0",
+                        "type": "object",
+                        "title": "The first anyOf schema",
+                        "description": "Opis o igraču",
+                        "default": {},
+                        "examples": [
+                            {
+                                "ime": "Paul",
+                                "prezime": "Pogba",
+                                "datumrodenja": "15.3.93"
+                            }
+                        ],
+                        "required": [
+                            "ime",
+                            "prezime",
+                            "datumrodenja"
+                        ],
+                        "properties": {
+                            "ime": {
+                                "$id": "#/properties/igraci/items/anyOf/0/properties/ime",
+                                "type": "string",
+                                "title": "The ime schema",
+                                "description": "Ime igrača",
+                                "default": "",
+                                "examples": [
+                                    "Paul"
+                                ]
+                            },
+                            "prezime": {
+                                "$id": "#/properties/igraci/items/anyOf/0/properties/prezime",
+                                "type": "string",
+                                "title": "The prezime schema",
+                                "description": "Prezime igrača",
+                                "default": "",
+                                "examples": [
+                                    "Pogba"
+                                ]
+                            },
+                            "datumrodenja": {
+                                "$id": "#/properties/igraci/items/anyOf/0/properties/datumrodenja",
+                                "type": "string",
+                                "title": "The datumrodenja schema",
+                                "description": "Datum rođenja igrača",
+                                "default": "",
+                                "examples": [
+                                    "15.3.93"
+                                ]
+                            }
+                        },
+                        "additionalProperties": true
+                    }
+                ]
+            }
+        }
+    },
+    "additionalProperties": true
+}
