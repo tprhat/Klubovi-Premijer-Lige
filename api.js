@@ -146,13 +146,23 @@ app.get('/:imekluba/wiki', async function (req, res, next) {
             type: 'GET'
         }
     ]
-    res.status(200);
-    res.json({
-        status: 'OK',
-        message: "Fetched club's wiki handle",
-        response: query,
-        links: links
-    });
+    if(query.length != 0){
+        res.status(200);
+        res.json({
+            status: 'OK',
+            message: "Fetched club's wiki handle",
+            response: query,
+            links: links
+        });
+    }
+    else{
+        res.status(404);
+        res.json({
+            status: 'Not OK',
+            message: 'Club with this name does not exist',
+            response: null
+        });
+    }
 });
 
 //add klub
@@ -247,7 +257,17 @@ app.put('/:imekluba/:newkapacitet', async function (req, res, next) {
             type: 'GET'
         }
     ]
-    var query = (await db.query(`UPDATE clubs SET kapacitet=${req.params.newkapacitet} WHERE imekluba = ${req.params.imekluba}`, [])).rows;
+    try{
+    var query = (await db.query(`UPDATE clubs SET kapacitet=${req.params.newkapacitet} WHERE imekluba = '${req.params.imekluba}'`, [])).rows;
+    }
+    catch(error){
+        console.log(error)
+        res.status(404).json({
+            status: 'Not OK',
+            message: 'Club with that name does not exist',
+            response: null
+        })
+    }
     res.status(200);
     res.json({
         status: 'OK',

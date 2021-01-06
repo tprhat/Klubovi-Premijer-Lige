@@ -1,0 +1,142 @@
+{
+    "openapi": "3.1.0",
+    "info": {
+      "title": "Premier League Clubs",
+      "version": "1.0.0"
+    },
+    "paths": {
+        "/": {
+            "get": {
+                "summary": "Get clubs",
+                "description": "Returns all clubs in collection",
+                "produces": [
+                "application/json"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Fetch successful"
+                    },
+                    "500":{
+                        "description": "Server error"
+                    }
+                }
+            },
+            "post": {
+                "summary": "Add a new club",
+                "description": "Add a new club to the collection",
+                "produces": [
+                    "application/json"
+                    ],
+                    "responses":{
+                        "200": {
+                            "description": "Post successful"
+                        },
+                        "404": {
+                            "description": "Bad request"
+                        }
+                    }
+            }
+        },
+        "/igraci": {
+            "get": {
+                "summary": "Get players",
+                "description": "Returns all players in collection",
+                "produces": [
+                "application/json"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Fetch successful"
+                    },
+                    "500":{
+                        "description": "Server error"
+                    }
+                }
+            }
+        },
+        "/nadmici": {
+            "get": {
+                "summary": "Get clubs and nicknames",
+                "description": "Returns all clubs and corresponding nicknames in collection",
+                "produces": [
+                "application/json"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Fetch successful"
+                    },
+                    "500":{
+                        "description": "Server error"
+                    }
+                }
+            }
+        },
+        "/{imekluba}": {
+            "get":{
+                "summary": "Get specified club",
+                "description": "Returns specified club in collection",
+                "produces": [
+                "application/json"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Fetch successful"
+                    },
+                    "404":{
+                        "description": "Bad request"
+                    }
+                }
+            },
+            "delete": {
+                "summary": "Delete specified club",
+                "description": "Delete specified club in collection",
+                "produces": [
+                "application/json"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Delete successful"
+                    },
+                    "404":{
+                        "description": "Bad request"
+                    }
+                }
+            }
+        },
+        "/{imekluba}/wiki": {
+            "get":{
+                "summary": "Get specified club's wiki handle",
+                "description": "Returns specified club's wiki handle from collection",
+                "produces": [
+                "application/json"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Fetch successful"
+                    },
+                    "404":{
+                        "description": "Bad request"
+                    }
+                }
+            }
+        },
+        "/{imekluba}/{newkapacitet}": {
+            "put": {
+                "summary": "Update club's capacity",
+                "description": "Update specified club's capacity",
+                "produces": [
+                    "application/json"
+                    ],
+                    "responses": {
+                        "200": {
+                            "description": "Update successful"
+                        },
+                        "404":{
+                            "description": "Bad request"
+                        }
+                    }
+            }
+        }
+
+    }
+}
