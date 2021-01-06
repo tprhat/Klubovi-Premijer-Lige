@@ -117,6 +117,16 @@ app.get('/:imekluba', async function (req, res, next) {
             href: `/${req.params.imekluba}/wiki`,
             rel: "club's wiki handle",
             type: 'GET'
+        },
+        {
+            href: `/${req.params.imekluba}/{kapacitet}`,
+            rel: `Update capacity`,
+            type: 'PUT'
+        },
+        {
+            href: `/${req.params.imekluba}`,
+            rel: "delete club",
+            type: 'DELETE'
         }
     ]
     if (query.length != 0) {
@@ -185,7 +195,7 @@ app.post('/', async function (req, res, next) {
         },
         {
             href: '/',
-            rel: 'Adding club',
+            rel: 'All data',
             type: 'GET'
         },
         {
@@ -229,6 +239,7 @@ app.delete('/:imekluba', async function (req, res, next) {
             rel: 'All data',
             type: 'GET'
         }
+        
     ] 
     try {
         var query = (await db.query(`DELETE FROM clubs WHERE imekluba = '${req.params.imekluba}'`, [])).rows;
@@ -272,7 +283,8 @@ app.put('/:imekluba/:newkapacitet', async function (req, res, next) {
     res.json({
         status: 'OK',
         message: 'Updated clubs capacity',
-        response: 'UPDATE'
+        response: 'UPDATE',
+        links: links
     })
 });
 
