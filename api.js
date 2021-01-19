@@ -1,5 +1,8 @@
 const express = require('express');
+const request = require('request');
 const db = require('./db/index');
+const fs = require('fs');
+const { dirname } = require('path');
 const app = express();
 //get sve
 app.get('/', async function (req, res, next) {
@@ -69,6 +72,12 @@ app.get('/igraci', async function (req, res, next) {
         res.json({
             status: 'OK',
             message: 'Fetched all players',
+            "@context": {
+                "@vocab": "http://schema.org/",
+                "ime": "givenName",
+                "prezime": "familyName",
+                "datumrodenja": "birthDate"
+                },
             response: query,
             links: links
         });
@@ -97,6 +106,11 @@ app.get('/nadimci', async function (req, res, next) {
         res.json({
             status: 'OK',
             message: 'Fetched all clubs and their nicknames',
+            "@context": {
+                "@vocab": "http://schema.org/",
+                "imekluba": "givenName",
+                "nadimak": "alternateName"
+                },
             response: query,
             links: links
         });
@@ -127,6 +141,11 @@ app.get('/:imekluba', async function (req, res, next) {
             href: `/${req.params.imekluba}`,
             rel: "delete club",
             type: 'DELETE'
+        },
+        {
+            href: `/${req.params.imekluba}/picture`,
+            rel: "clubs's picture",
+            type: 'GET'
         }
     ]
     if (query.length != 0) {
@@ -147,6 +166,44 @@ app.get('/:imekluba', async function (req, res, next) {
         });
     }
 });
+app.get('/:imekluba/picture', async function (req, res, next) {
+    var query = (await db.query(`SELECT DISTINCT  wikipedijaurl FROM clubs WHERE imekluba = '${req.params.imekluba}'`, [])).rows;
+    console.log(query[0].wikipedijaurl);
+    var queryTTL = (await db.query(`SELECT * FROM "timeLeft" WHERE ime = '${query[0].wikipedijaurl}'`, [])).rows;
+    console.log(queryTTL);
+    // await db.query(`INSERT INTO "timeLeft" VALUES ('${query[0].wikipedijaurl}', '${Date.now()}')`, []);
+    if (queryTTL.length > 0) {
+        //console.log(Date.now() - queryTTL[0].date);
+        if (Date.now() - queryTTL[0].date > 36000000) {
+            //dulje od 1h
+            let fileStream = fs.createWriteStream(query[0].wikipedijaurl + '.png');
+            request('https://en.wikipedia.org/api/rest_v1/page/summary/' + query[0].wikipedijaurl, function (err, res, body) {
+                console.error('error', err);
+                parser = JSON.parse(body);
+                console.log(parser.originalimage.source);
+                request(parser.originalimage.source).pipe(fileStream);
+            });
+            await db.query(`UPDATE "timeLeft" SET  date= '${Date.now()}' WHERE ime = '${query[0].wikipedijaurl}'`, []);   
+        }
+    }
+    else{
+        let fileStream = fs.createWriteStream(query[0].wikipedijaurl + '.png');
+            request('https://en.wikipedia.org/api/rest_v1/page/summary/' + query[0].wikipedijaurl, function (err, res, body) {
+                console.error('error', err);
+                parser = JSON.parse(body);
+                console.log(parser.originalimage.source);
+                request(parser.originalimage.source).pipe(fileStream);
+            });
+            await db.query(`INSERT INTO "timeLeft" VALUES ('${query[0].wikipedijaurl}', '${Date.now()}')`, []);
+    }
+    res.sendFile(__dirname + '/' + query[0].wikipedijaurl +'.png', function (err) {
+        if (err) {
+            next(err)
+        } else {
+            console.log('Sent!');
+        }
+    })
+});
 app.get('/:imekluba/wiki', async function (req, res, next) {
     var query = (await db.query(`SELECT DISTINCT wikipedijaurl FROM clubs WHERE imekluba = '${req.params.imekluba}'`, [])).rows;
     links = [
@@ -156,7 +213,7 @@ app.get('/:imekluba/wiki', async function (req, res, next) {
             type: 'GET'
         }
     ]
-    if(query.length != 0){
+    if (query.length != 0) {
         res.status(200);
         res.json({
             status: 'OK',
@@ -165,7 +222,7 @@ app.get('/:imekluba/wiki', async function (req, res, next) {
             links: links
         });
     }
-    else{
+    else {
         res.status(404);
         res.json({
             status: 'Not OK',
@@ -239,8 +296,8 @@ app.delete('/:imekluba', async function (req, res, next) {
             rel: 'All data',
             type: 'GET'
         }
-        
-    ] 
+
+    ]
     try {
         var query = (await db.query(`DELETE FROM clubs WHERE imekluba = '${req.params.imekluba}'`, [])).rows;
     } catch (error) {
@@ -268,10 +325,10 @@ app.put('/:imekluba/:newkapacitet', async function (req, res, next) {
             type: 'GET'
         }
     ]
-    try{
-    var query = (await db.query(`UPDATE clubs SET kapacitet=${req.params.newkapacitet} WHERE imekluba = '${req.params.imekluba}'`, [])).rows;
+    try {
+        var query = (await db.query(`UPDATE clubs SET kapacitet=${req.params.newkapacitet} WHERE imekluba = '${req.params.imekluba}'`, [])).rows;
     }
-    catch(error){
+    catch (error) {
         console.log(error)
         res.status(404).json({
             status: 'Not OK',

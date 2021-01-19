@@ -136,6 +136,20 @@
                         }
                     }
             }
+        },
+        "/{imekluba}/picture": {
+            "get": {
+                "summary": "Get club's picture",
+                "description": "Get club's picture",
+                "produces": [
+                    "images/png"
+                    ],
+                    "responses": {
+                        "200": {
+                            "description": "Get successful"
+                        }
+                    }
+            }
         }
 
     }
